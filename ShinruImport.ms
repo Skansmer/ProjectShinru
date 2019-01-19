@@ -17,7 +17,7 @@ macroScript ShinruImp category:"ProjectShinru"
 	Stream = getOpenFileName \
 		caption:"Open Shinru models" \
 		types:"All |*.*|Armor |*.amr|Pants |*.pnt|Guntlet |*.gtl|Shoes |*.sho|Helmet |*.hlm|Weapon |*.wpn|" \
-		historyCategory:"KalOnline"
+		historyCategory:"ProjectShinru"
 	s = fopen Stream "rb"
 
 	--Print ("Starting at @ 0x"+((bit.intAsHex(ftell s))as string)) --Debug
